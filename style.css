@@ -1,0 +1,107 @@
+body{
+    background-color:grey;
+    color: white;
+    margin:0;
+    padding: 0;
+}
+button{
+    width: 6rem;
+    height: 3rem;
+    font-size: medium;
+
+
+}
+.zero{
+    margin:0;
+    padding:0;
+    justify-content: left;
+    text-align: left;
+    color:black;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+/* navbar */
+nav img{
+    width: 5%;
+    height: 5%;
+    margin:.5rem 3rem;
+}
+nav{
+    background-color: white;
+    display: flex;
+    list-style: none;
+   
+ }
+nav ul{
+    text-align: right;
+    justify-content: right;
+   margin-left: 40%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 1rem 2rem;
+
+}
+
+nav ul li a{
+    color:rgb(0, 0, 0);
+    font-size: 1.5rem ;
+    text-decoration: none;
+   
+}
+nav ul li a:hover{
+    color:#29ABE2;
+    border-bottom:3px solid #29ABE2;
+    transition: .2s linear;
+}
+header{
+    margin:2rem;
+    padding:1rem;
+    justify-content: left;
+    text-align: left;
+}
+.headleft{
+    padding:100px 30px;
+}
+.headright{
+    width: 30%;
+    height:auto;
+}
+footer{
+    background-color: rgb(44, 44, 44);
+    margin-top: 3rem;
+}
+.footer-copyright{
+    background-color: rgb(32, 32, 32);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* for extra small devices */
+@media only screen and (max-width:375px)
+{}
+/* Iphonex */
+@media only screen and (max-width:578px)
+{}
+
+/* for mobile phone */
+@media only screen and (max-width: 768px)
+{}
+/* for tablet and ipads */
+@media (min-width: 768px) and (max-width:1023px)
+{}
+
+ 
+
